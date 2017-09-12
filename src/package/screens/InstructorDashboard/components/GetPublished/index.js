@@ -25,7 +25,7 @@ const GetPublished = ({instructor}) => (
         },
         {
           isComplete: isString(instructor.slack_id),
-          description: 'Join egghead Slack',
+          description: 'Join our Slack',
           moreInfoUrl: chatInfoUrl,
         },
         {
@@ -64,7 +64,7 @@ const GetPublished = ({instructor}) => (
           title='To Do'
           description='Work with your mentor to complete these items so you can get published.'
           intro={
-            <Progress 
+            <Progress
               total={size(checklistItems)}
               complete={size(filter(checklistItems, 'isComplete'))}
             />

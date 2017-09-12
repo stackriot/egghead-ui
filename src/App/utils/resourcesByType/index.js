@@ -49,12 +49,12 @@ import windowMock from 'package/utils/windowMock'
 
 import Authentication from 'App/components/Authentication'
 
-const universalWindow = typeof(window) === 'undefined' 
-  ? windowMock 
+const universalWindow = typeof(window) === 'undefined'
+  ? windowMock
   : window
 
 const getLoginUrl = () =>
-  `${process.env.REACT_APP_NPMSTACK_BASE_URL}/users/jwt?return_to=${universalWindow.location.href}`
+  `${process.env.config.BackendUrl}/users/jwt?return_to=${universalWindow.location.href}`
 
 const createNodeExample = () => random.arrayElement([
 
