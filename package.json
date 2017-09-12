@@ -1,6 +1,6 @@
 {
   "name": "stackriot-styleguide",
-  "version": "7.0.2",
+  "version": "1.2.0",
   "description": "Components used across npmstack projects",
   "homepage": "http://styleguide.npmstack.com",
   "engines": {
