@@ -1,5 +1,4 @@
 [ignore]
-/public/**/.*
 .*/node_modules/art/.*
 .*/node_modules/react-native/**/.*
 

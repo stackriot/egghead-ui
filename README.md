@@ -7,11 +7,11 @@ egghead UI pieces as a **package** and **app**
 
 ## Usage
 
-```
-$ yarn add egghead-ui
+```sh
+yarn add egghead-ui
 ```
 
-```
+```JavaScript
 import {resource} from 'egghead-ui'
 ```
 
