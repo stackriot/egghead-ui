@@ -4912,15 +4912,6 @@ react-icons@^2.2.5:
   dependencies:
     react-icon-base "2.0.7"
 
-"react-icons@github:eggheadio/react-icons":
-  version "3.9.0"
-  resolved "https://codeload.github.com/eggheadio/react-icons/tar.gz/0f3f1adfc15409daea238410344f987263adc90d"
-  dependencies:
-    react "^15.0.0"
-    react-dom "^15.0.0"
-    react-icon-base "^2.0.7"
-    react-icons "^2.2.5"
-
 react-markdown@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/react-markdown/-/react-markdown-2.5.0.tgz#b1c61904fee5895886803bd9df7db23c3dc3a89e"
@@ -5548,6 +5539,15 @@ sshpk@^1.7.0:
     ecc-jsbn "~0.1.1"
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
+
+stackriot-icons@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/stackriot-icons/-/stackriot-icons-4.2.1.tgz#0d8cbef258d91033618f50876d080276b2dc6840"
+  dependencies:
+    react "^15.0.0"
+    react-dom "^15.0.0"
+    react-icon-base "^2.0.7"
+    react-icons "^2.2.5"
 
 "statuses@>= 1.3.1 < 2", statuses@~1.3.1:
   version "1.3.1"
