@@ -1,5 +1,5 @@
 # egghead-ui
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 egghead UI pieces as a **package** and **app**
 - **package**: [npmjs.com/package/egghead-ui](https://npmjs.com/package/egghead-ui) (exports egghead UI resources for use in other egghead projects via npm)
