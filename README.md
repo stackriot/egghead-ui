@@ -20,3 +20,14 @@ View [the **app**](https://styleguide.egghead.io) for full documentation and exa
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+| [<img src="https://avatars3.githubusercontent.com/u/8031689?v=4" width="100px;"/><br /><sub>Seth Bergman</sub>](https://sethbergman.com)<br /> |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!

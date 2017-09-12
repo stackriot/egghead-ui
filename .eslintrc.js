@@ -7,7 +7,7 @@ module.exports = {
     },
     "extends": "prettier",
     "parserOptions": {
-        "sourceType": "module"
+        "sourceType": "module", "flow"
     },
     "rules": {
         "indent": [

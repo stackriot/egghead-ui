@@ -1,12 +1,15 @@
 [ignore]
-[{public}
-{.circleci/config.yml}
-{node_modules}
-{lib}]
+/public/**/.*
+.*/node_modules/art/.*
+.*/node_modules/react-native/**/.*
+
 [include]
+[tachyons-egghead]
 
 [libs]
-
+[src/App/package/components]
+[src/App/package/screens]
+[src/App/package/utils]
 [lints]
 
 [options]

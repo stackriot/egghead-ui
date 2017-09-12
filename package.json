@@ -24,7 +24,9 @@
     "bump": "yarn version && git push && git push --tags",
     "prepublish": "yarn build:package",
     "build": "yarn build:app",
-    "start": "NODE_PATH=./src react-scripts start"
+    "start": "NODE_PATH=./src react-scripts start",
+    "add": "all-contributors add",
+    "generate": "all-contributors generate"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -52,6 +54,7 @@
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
+    "all-contributors-cli": "^4.4.0",
     "babel-cli": "^6.24.1",
     "babel-plugin-module-resolver": "^2.7.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
@@ -76,7 +79,7 @@
     "jwt-simple": "^0.5.1",
     "lodash": "^4.17.4",
     "react-chartjs-2": "^2.1.0",
-    "react-icons": "github:eggheadio/react-icons#3.8.0",
+    "react-icons": "github:eggheadio/react-icons#3.9.0",
     "react-markdown": "^2.5.0",
     "react-paginate": "^4.4.2",
     "react-router": "^4.1.1",
