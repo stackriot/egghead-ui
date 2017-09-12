@@ -54,7 +54,7 @@ const universalWindow = typeof(window) === 'undefined'
   : window
 
 const getLoginUrl = () =>
-  `${process.env.REACT_APP_EGGHEAD_BASE_URL}/users/jwt?return_to=${universalWindow.location.href}`
+  `${process.env.REACT_APP_NPMSTACK_BASE_URL}/users/jwt?return_to=${universalWindow.location.href}`
 
 const createNodeExample = () => random.arrayElement([
 

@@ -1,7 +1,7 @@
 export const guideUrl = 'https://instructor.egghead.io/guide'
 
-export const chatUrl = 'https://eggheadio.slack.com/messages/egghead-instructors/'
-export const instructorsChatUrl = 'https://eggheadio.slack.com/messages/egghead-instructors/'
+export const chatUrl = 'https://npmstack.slack.com/messages/instructors/'
+export const instructorsChatUrl = 'https://npmstack.slack.com/messages/instructors/'
 
 export const chatInfoUrl = 'https://instructor.egghead.io/guide/01-invited/invited.html'
 export const roughDraftInfoUrl = 'https://instructor.egghead.io/guide/01-invited/first-lesson.html'
