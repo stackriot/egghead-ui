@@ -1,4 +1,3 @@
-import propTypes from 'react';
 import windowMock from 'package/utils/windowMock'
 
 const universalWindow = typeof(window) === 'undefined'
