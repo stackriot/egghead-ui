@@ -1,7 +1,7 @@
 import windowMock from 'package/utils/windowMock'
 
-const universalWindow = typeof(window) === 'undefined' 
-  ? windowMock 
+const universalWindow = typeof(window) === 'undefined'
+  ? windowMock
   : window
 
 const logout = () => {

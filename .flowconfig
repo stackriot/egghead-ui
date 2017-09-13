@@ -1,5 +1,8 @@
 [ignore]
-
+[{public}
+{.circleci/config.yml}
+{node_modules}
+{lib}]
 [include]
 
 [libs]

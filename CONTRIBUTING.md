@@ -24,7 +24,7 @@
 - Submit a pull request for the feature branch to `master`
 - Once PR status passes (approved review and successful [continuous integration in Travis CI](https://travis-ci.org/eggheadio/egghead-ui), merge the pull request
 - When `master` is updated
-  - [Continuous deployment runs in Travis CI](https://travis-ci.org/eggheadio/egghead-ui) and deploys the latest **app** to [styleguide.egghead.io](https://styleguide.egghead.io) 
+  - [Continuous deployment runs in Travis CI](https://travis-ci.org/eggheadio/egghead-ui) and deploys the latest **app** to [styleguide.egghead.io](https://styleguide.egghead.io)
   - If there was a version bump (`package.json` version and new git tag), it also publishes the new **package** version to [npm](https://www.npmjs.com/package/egghead-ui)
     - Notify consuming projects to run `yarn upgrade egghead-ui` in their projects to get latest, with a list of changes
 
@@ -50,11 +50,12 @@
 - `lib`: generated for **package** installs on npm
 - `build`: generated for a deployable version of the **app**
 
+
 ## Conventions
 
 ### Package management
 
-Yarn is used for package management. Use the [yarn cli](https://yarnpkg.com/en/docs/usage) to add/remove/update packages which updates both the `package.json` and `yarn.lock` to ensure consistent package installs. 
+Yarn is used for package management. Use the **[yarn cli](https://yarnpkg.com/en/docs/usage)** to add/remove/update packages which updates both the `package.json` and `yarn.lock` to ensure consistent package installs.
 
 ### Scripts
 
@@ -65,10 +66,10 @@ Yarn is used for running scripts. Use `yarn {script}` to run them. The core of t
 `src` is made up primarily of **components**. A component is a directory organized _by feature_. They look like this:
 
 ```
-SomeComponentName/
-  index.js (entry point)
-  components/ (optional sub-components)
-  utils/ (optional utility modules)
+Subcomponent/
+    index.js (entry point)
+    components/ (optional sub-components)
+    utils/ (optional utility modules)
 ```
 
 ### Screens
@@ -107,6 +108,15 @@ The root egghead-ui components are used wherever possible. Styling is largely ta
 
 Linting is currently provided by `react-scripts` (ESLint).
 
+The development branch has `eslint-config-prettier`, and uses an automated code formatter that's available in the following editors:
+
+- [Atom](https://github.com/prettier/prettier-atom)
+- [VSCode](https://github.com/prettier/prettier-vscode)
+
 ### Testing
 
 Testing is currently provided by `react-scripts` (Jest). Files that could benefit from tests have an `index.test.js` file next to them. These are generally simple unit or snapshot tests where they provide value.
+
+### Changelog
+
+[See HISTORY.md](HISTORY.md)

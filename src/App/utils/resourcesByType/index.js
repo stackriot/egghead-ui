@@ -1,3 +1,5 @@
+/* eslint-ignore-file */
+
 import React from 'react'
 import {internet, lorem, random, name} from 'faker'
 
@@ -49,8 +51,8 @@ import windowMock from 'package/utils/windowMock'
 
 import Authentication from 'App/components/Authentication'
 
-const universalWindow = typeof(window) === 'undefined' 
-  ? windowMock 
+const universalWindow = typeof(window) === 'undefined'
+  ? windowMock
   : window
 
 const getLoginUrl = () =>
