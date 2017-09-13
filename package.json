@@ -4,7 +4,7 @@
   "description": "Components used across npmstack projects",
   "homepage": "http://styleguide.npmstack.com",
   "engines": {
-    "node": ">=7.0.0"
+    "node": "8.x.x"
   },
   "main": "lib/index.js",
   "files": [
