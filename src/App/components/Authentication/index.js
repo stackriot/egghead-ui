@@ -16,7 +16,7 @@ const Authentication = ({children, loginUrl, userPermissionProperty}) => {
           You need to log in to view this
         </Heading>
         <Anchor url={loginUrl}>
-          Sign in via egghead
+          Sign in to Operation Code
         </Anchor>
       </div>
     )
@@ -27,7 +27,7 @@ const Authentication = ({children, loginUrl, userPermissionProperty}) => {
   }
 
   return (
-    <Request auth={true} url={`${process.env.REACT_APP_NPMSTACK_BASE_URL}/api/v1`}>
+    <Request auth={true} url={`${process.env.config.backendUrl}/api/v1`}>
       {({data}) => children({data})}
     </Request>
   )

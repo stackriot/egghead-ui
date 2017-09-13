@@ -1,1 +1,1 @@
-web: yarn run dev:app:staging
+web: yarn run dev:package && yarn start

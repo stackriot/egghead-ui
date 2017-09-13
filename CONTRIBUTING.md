@@ -22,9 +22,9 @@
 - Stage, commit, and push
 - If you want to publish a new **package** release, run `yarn bump` and type in the new version using [Semantic Versioning](http://semver.org/); this will bump the `package.json` version and push a new git tag
 - Submit a pull request for the feature branch to `master`
-- Once PR status passes (approved review and successful [continuous integration in Travis CI](https://travis-ci.org/eggheadio/egghead-ui), merge the pull request
+- Once PR status passes (approved review and successful [continuous integration in Travis CI](https://travis-ci.org/stackriot/egghead-ui), merge the pull request
 - When `master` is updated
-  - [Continuous deployment runs in Travis CI](https://travis-ci.org/eggheadio/egghead-ui) and deploys the latest **app** to [styleguide.egghead.io](https://styleguide.egghead.io)
+  - [Continuous deployment runs in Travis CI](https://travis-ci.org/stackriot/egghead-ui) and deploys the latest **app** to [styleguide.egghead.io](https://styleguide.egghead.io)
   - If there was a version bump (`package.json` version and new git tag), it also publishes the new **package** version to [npm](https://www.npmjs.com/package/egghead-ui)
     - Notify consuming projects to run `yarn upgrade egghead-ui` in their projects to get latest, with a list of changes
 

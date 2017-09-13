@@ -13,7 +13,7 @@
     "lib"
   ],
   "scripts": {
-    "dev:package": "yarn build:package -- -w",
+    "dev:package": "yarn build:package",
     "dev:app": "REACT_APP_NPMSTACK_BASE_URL=http://localhost:5000 NODE_PATH=./src BROWSER=none react-scripts start",
     "dev:app:staging": "REACT_APP_NPMSTACK_BASE_URL=http://staging.npmstack.com NODE_PATH=./src BROWSER=none react-scripts start",
     "test": "NODE_PATH=./src react-scripts test",
