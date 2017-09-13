@@ -25,7 +25,7 @@ export default ({instructor}) => {
       ? <InfoBit
           label={'Slack'}
           value={instructor.slack_id}
-          href={`https://eggheadio.slack.com/messages/@${instructor.slack_id}`}
+          href={`https://npmstack.slack.com/messages/@${instructor.slack_id}`}
         />
       : null,
     instructor.website

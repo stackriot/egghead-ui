@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const ResourceDirectory = ({resources}) => (
   <nav className='flex flex-wrap'>
     {map(resources.items, (value, key) => (
-      <Link 
+      <Link
         key={key}
         to={`${resources.urlBase}/${key}`}
         className='pointer dim db pa3 mb2 mr2 bg-base-secondary dark-gray no-underline'

@@ -1,8 +1,8 @@
 {
-  "name": "egghead-ui",
-  "version": "6.9.0",
-  "description": "Components used across egghead projects",
-  "homepage": "https://styleguide.egghead.io",
+  "name": "stackriot-styleguide",
+  "version": "7.0.2",
+  "description": "Components used across npmstack projects",
+  "homepage": "http://styleguide.npmstack.com",
   "engines": {
     "node": ">=7.0.0"
   },
@@ -14,12 +14,12 @@
   ],
   "scripts": {
     "dev:package": "yarn build:package -- -w",
-    "dev:app": "REACT_APP_EGGHEAD_BASE_URL=http://egghead.dev:5000 NODE_PATH=./src BROWSER=none react-scripts start",
-    "dev:app:staging": "REACT_APP_EGGHEAD_BASE_URL=https://egghead-io-staging.com NODE_PATH=./src BROWSER=none react-scripts start",
+    "dev:app": "REACT_APP_NPMSTACK_BASE_URL=http://localhost:5000 NODE_PATH=./src BROWSER=none react-scripts start",
+    "dev:app:staging": "REACT_APP_NPMSTACK_BASE_URL=http://staging.npmstack.com NODE_PATH=./src BROWSER=none react-scripts start",
     "test": "NODE_PATH=./src react-scripts test",
     "lint": "NODE_PATH=./src eslint src",
     "build:package": "NODE_PATH=./src babel src/package -d lib -i '**/*.test.js'",
-    "build:app": "REACT_APP_EGGHEAD_BASE_URL=https://egghead-io-staging.com NODE_PATH=./src react-scripts build",
+    "build:app": "REACT_APP_NPMSTACK_BASE_URL=http://staging.npmstack.com NODE_PATH=./src react-scripts build",
     "verify": "CI=true yarn test && yarn lint && yarn build:package && yarn build:app",
     "bump": "yarn version && git push && git push --tags",
     "prepublish": "yarn build:package",
@@ -58,6 +58,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-env": "^1.4.0",
     "babel-preset-react": "^6.24.1",
+    "eslint-config-prettier": "^2.4.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-scripts": "^0.9.5"
@@ -73,7 +74,7 @@
     "jwt-simple": "^0.5.1",
     "lodash": "^4.17.4",
     "react-chartjs-2": "^2.1.0",
-    "react-icons": "github:eggheadio/react-icons#3.6.0",
+    "react-icons": "github:eggheadio/react-icons#3.8.0",
     "react-markdown": "^2.5.0",
     "react-paginate": "^4.4.2",
     "react-router": "^4.1.1",
