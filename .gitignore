@@ -1,6 +1,6 @@
 node_modules/
-lib/
-build/
+!#lib/
+!#sbuild/
 npm-debug.log
 .DS_Store
 .tern-port
