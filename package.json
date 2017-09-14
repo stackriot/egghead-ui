@@ -1,10 +1,10 @@
 {
-  "name": "stackriot-styleguide",
+  "name": "egghead-ui",
   "version": "7.1.3",
   "description": "Components used across npmstack projects",
   "homepage": "http://styleguide.npmstack.com",
   "engines": {
-    "node": "8.x.x"
+    "node": ">=7.0.0"
   },
   "main": "lib/index.js",
   "files": [
@@ -13,7 +13,7 @@
     "lib"
   ],
   "scripts": {
-    "dev:package": "yarn build:package",
+    "dev:package": "yarn build:package -- -w",
     "dev:app": "REACT_APP_NPMSTACK_BASE_URL=http://localhost:5000 NODE_PATH=./src BROWSER=none react-scripts start",
     "dev:app:staging": "REACT_APP_NPMSTACK_BASE_URL=http://staging.npmstack.com NODE_PATH=./src BROWSER=none react-scripts start",
     "test": "NODE_PATH=./src react-scripts test",
@@ -80,10 +80,8 @@
     "http-server": "^0.10.0",
     "jwt-simple": "^0.5.1",
     "lodash": "^4.17.4",
-    "react": "^15.5.4",
     "react-chartjs-2": "^2.1.0",
-    "react-dom": "^15.5.4",
-    "react-icons": "^2.x.x",
+    "react-icons": "github:eggheadio/react-icons#3.8.0",
     "react-markdown": "^2.5.0",
     "react-paginate": "^4.4.2",
     "react-router": "^4.1.1",
@@ -91,8 +89,5 @@
     "react-tabs": "^1.0.0",
     "styled-components": "^1.4.6",
     "tachyons-egghead": "^2.3.1"
-  },
-  "repository": "https://github.com/stackriot/egghead-ui.git",
-  "author": "Seth Bergman <seth.atxwebs@gmail.com>",
-  "license": "MIT"
+  }
 }
