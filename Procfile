@@ -1,1 +1,1 @@
-web: yarn run dev:package && yarn start
+web: npm run build && yarn global add serve && serve -s build
