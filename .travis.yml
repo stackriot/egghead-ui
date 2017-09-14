@@ -3,8 +3,8 @@ node_js:
 - node
 script: yarn
 deploy:
-  - provider: $DOKKU
-    app: $DOKKU_APP
+  - provider: heroku
+    app: stackriot-ui
   # api_key: $API_BASE_URL
   - provider: npm
     api_key: $AUTHOR_NPM_TOKEN
