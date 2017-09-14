@@ -70,8 +70,6 @@
     "react-scripts": "^0.9.5"
   },
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
     "axios": "^0.16.1",
     "chart.js": "chartjs/Chart.js",
     "element-resize-event": "^2.0.9",
@@ -82,8 +80,10 @@
     "http-server": "^0.10.0",
     "jwt-simple": "^0.5.1",
     "lodash": "^4.17.4",
+    "react": "^15.5.4",
     "react-chartjs-2": "^2.1.0",
-    "react-icons": "github:eggheadio/react-icons#3.8.0",
+    "react-dom": "^15.5.4",
+    "react-icons": "^2.x.x",
     "react-markdown": "^2.5.0",
     "react-paginate": "^4.4.2",
     "react-router": "^4.1.1",
@@ -91,5 +91,8 @@
     "react-tabs": "^1.0.0",
     "styled-components": "^1.4.6",
     "tachyons-egghead": "^2.3.1"
-  }
+  },
+  "repository": "https://github.com/stackriot/egghead-ui.git",
+  "author": "Seth Bergman <seth.atxwebs@gmail.com>",
+  "license": "MIT"
 }
